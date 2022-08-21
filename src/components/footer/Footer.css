@@ -1,0 +1,32 @@
+footer.footer{
+    padding: 10px 0;
+    background-color: #242424;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content .socials{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width:150px;
+}
+
+.footer-content svg path{
+    fill: #ffffff;
+}
+
+.footer-content a{
+    width: 20px;
+}
+
+@media (max-width: 768px){
+    .footer-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

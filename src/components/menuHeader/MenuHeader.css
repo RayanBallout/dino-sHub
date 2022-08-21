@@ -1,0 +1,25 @@
+.menu-content{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu-hero{
+    background-image: url('../../assets/images/tawook.jpg');
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-content{
+    z-index: 1;
+}
+
+.menu-content h1{
+    border-bottom: 2px solid var(--color-red);
+    width: fit-content;
+    margin: 0 auto 20px;
+    
+}
