@@ -46,6 +46,10 @@ const MenuTable = () => {
                 <h3>SNACKS</h3>
                 <table>
                     <tr>
+                        <td>Chips</td>
+                        <td className='float-right'>20000</td>
+                    </tr>
+                    <tr>
                         <td>Pepsi (Glass)</td>
                         <td className='float-right'>10000</td>
                     </tr>
@@ -94,6 +98,10 @@ const MenuTable = () => {
                     </tr>
                     <tr>
                         <td>BabyFoot (1 Game)</td>
+                        <td className='float-right'>20000</td>
+                    </tr>
+                    <tr>
+                        <td>Counter Strike</td>
                         <td className='float-right'>20000</td>
                     </tr>
                     <tr>

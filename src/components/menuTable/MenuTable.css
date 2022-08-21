@@ -17,6 +17,7 @@ td.float-right{
 
 .section1,.section2{
     width: 50%;
+    height: 100%;
 }
 
 .section1 table{
@@ -29,6 +30,7 @@ td.float-right{
 
 table{
     width: 100%;
+    height: 100%;
 }
 
 .menu-footer{

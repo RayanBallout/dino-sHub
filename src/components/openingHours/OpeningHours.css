@@ -1,0 +1,48 @@
+.opening-content{
+    margin-top: 40px;
+}
+
+.opening-content h2{
+    margin:20px auto;
+    width: fit-content;
+    border-bottom: 2px solid var(--color-red);
+}
+
+.opening-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.opening-content svg{
+    width: 50%;
+    height: 100px;
+}
+
+.opening-content svg path{
+    fill: white;
+}
+.opening-container li{
+    margin-top: 10px;
+}
+.times{
+    width: 50%;
+}
+
+.times h4{
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .opening-container{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .times{
+        width: 100%;
+    }
+}

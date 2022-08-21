@@ -8,6 +8,12 @@
     align-items: center;
 }
 
+.about-container p{
+    width: 70%;
+    margin: 30px auto 0;
+
+}
+
 .about-content{
     z-index: 1;
     text-align: center;
